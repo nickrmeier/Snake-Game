@@ -10,7 +10,7 @@ high_score = 0
 # Setup Screen
 wn = turtle.Screen()
 wn.title("Snake Game")
-wn.bgcolor("green")
+wn.bgcolor("white")
 wn.setup(width=600, height=600)
 wn.tracer(0)
 
@@ -20,7 +20,7 @@ head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
 head.color("black")
-head.penup()
+# head.penup()
 head.goto(0, 0)
 head.direction = "stop"
 
@@ -29,7 +29,7 @@ food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
 food.color("red")
-food.penup()
+# food.penup()
 food.goto(0, 100)
 
 segments = []
